@@ -1,22 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_point.h                                         :+:      :+:    :+:   */
+/*   ft_stock_str.h                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ybucaill <ybucaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/13 04:34:58 by ybucaill          #+#    #+#             */
-/*   Updated: 2023/07/21 06:42:35 by ybucaill         ###   ########.fr       */
+/*   Created: 2023/07/21 06:44:03 by ybucaill          #+#    #+#             */
+/*   Updated: 2023/07/21 06:44:03 by ybucaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_POINT_H
-# define FT_POINT_H
+#ifndef FT_STOCK_STR_H
+# define FT_STOCK_STR_H
 
-typedef struct	s_point
+typedef struct	s_stock_str
 {
-	int x;
-	int y;
-}				t_point;
+	int		size;
+	char	*str;
+	char	*copy;
+}				t_stock_str;
 
 #endif
